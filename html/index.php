@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../css/css.css">
+	<title>slider</title>
+</head>
+<body>
+<header class="container">
+	<h1>This is my slider :D</h1>
+</header>
+
+<div class="slider">
+	<img onclick="min()" class="arrow" id="left" src="../images/arrow-left-solid.svg" alt="<">
+	<div class="images">
+		<img class="img show" id="1" src="../images/img1.jpg" alt="xx">
+		<img class="img" id="2" src="../images/img2.jpg" alt="xx">
+		<img class="img" id="3" src="../images/img3.jpg" alt="xx">
+	</div>
+	<img onclick="plus()" class="arrow" id="right" src="../images/arrow-right-solid.svg" alt=">">
+</div>
+<button onclick="stop()">PAUSE MEHH</button>
+<button onclick="starten()">STARTEN DIE HAP</button>
+<script src="../js/es5.js" type="text/javascript"></script>
+</body>
+</html>
